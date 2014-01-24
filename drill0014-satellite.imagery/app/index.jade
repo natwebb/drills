@@ -1,0 +1,18 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Satellite Imagery
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/style.css')
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/source/main.js')
+  body
+    h1 Satellite Imagery
+    input#zipCode(type="text", placeholder="Enter a zip code", autofocus)
+    button#getImagery Get Imagery
+    br
+    .pictureBox
+      #image1.pic
+      #image2.pic
+      #image3.pic

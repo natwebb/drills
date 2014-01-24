@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Get Forecast by Zip Code
+    link(rel="stylesheet", href="/css/normalize.css")
+    link(rel="stylesheet", href="/css/style.css")
+    script(src="/js/vendor/jquery.js")
+    script(src="/js/source/main.js")
+  body
+    input#zipCode(type="text", placeholder="Enter a zip code", autofocus)
+    button#addZip Add Zip Code
+    br
+    select#zipList
+    button#getForecast Get Forecast
